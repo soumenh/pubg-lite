@@ -1,4 +1,5 @@
-
+#!/bin/bash
+# A Test program for fun :p
 
 clear && echo -e "\e[36m [Prossing]" && echo "" && echo ""
 if [ -d /data/data/com.soumen.vartual ]; then
