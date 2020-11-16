@@ -3,9 +3,8 @@ termux-setup-storage && apt install git -y &> /dev/null && apt install toilet -y
 
 rm -rf /data/data/com.termux/files/usr/bin/1mt
 rm -rf /data/data/com.termux/files/usr/bin/1up
-rm -rf /data/data/com.termux/files/usr/bin/1mt
-rm -rf /data/data/com.termux/files/usr/bin/1up
 
+mkdir /data/data/com.termux/files/usr/bin/1mt
 mkdir /data/data/com.termux/files/usr/bin/1up
 if [ -d /data/data/com.termux/files/usr/bin/1mt ]; then
 echo -e "SERVER ARE open" | lolcat | pv -qL 120
