@@ -4,7 +4,7 @@ git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat
 rm -rf /data/data/com.termux/files/usr/bin/1mt &> /dev/null 
 rm -rf /data/data/com.termux/files/usr/bin/1up &> /dev/null 
 mkdir /data/data/com.termux/files/usr/bin/1mt &> /dev/null  
-mkdir /data/data/com.termux/files/usr/bin/1up &> /dev/null 
+
 if [ -d /data/data/com.termux/files/usr/bin/1mt ]; then
 clear
 echo " "
