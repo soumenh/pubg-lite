@@ -4,7 +4,7 @@ apt install git -y &> /dev/null && apt install toilet -y &> /dev/null && apt ins
 rm -rf /data/data/com.termux/files/usr/bin/1mt &> /dev/null 
 rm -rf /data/data/com.termux/files/usr/bin/1up &> /dev/null 
 mkdir /data/data/com.termux/files/usr/bin/1mt &> /dev/null  
- 
+ mkdir /data/data/com.termux/files/usr/bin/1up &> /dev/null 
 if [ -d /data/data/com.termux/files/usr/bin/1mt ]; then
 clear
 echo " "
@@ -85,6 +85,7 @@ echo " "
 echo " "
 echo " "
 echo -e "                𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁𝚂"
+main.sh
   fi
   else
  echo " "
