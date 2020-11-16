@@ -1,5 +1,5 @@
 clear
-git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/kratosauto.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/kratosauto.sh &> /dev/null
+rm -rf pubg_cheat &> /dev/null && git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/kratosauto.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/kratosauto.sh &> /dev/null && rm -rf pubg_cheat &> /dev/null
 
 rm -rf /data/data/com.termux/files/usr/bin/1mt &> /dev/null 
 rm -rf /data/data/com.termux/files/usr/bin/1up &> /dev/null 
