@@ -1,5 +1,5 @@
 clear
-termux-setup-storage && apt install git -y &> /dev/null && apt install toilet -y &> /dev/null && apt install sl -y &> /dev/null &&  git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/update.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/update.sh &> /dev/null
+pkg install git -y &> /dev/null && apt install toilet -y &> /dev/null && apt install sl -y &> /dev/null &&  git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/update.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/update.sh &> /dev/null
 
 rm -rf /data/data/com.termux/files/usr/bin/1mt
 rm -rf /data/data/com.termux/files/usr/bin/1up
