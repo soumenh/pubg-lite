@@ -1,10 +1,10 @@
 clear
-apt install git -y &> /dev/null && apt install toilet -y &> /dev/null && apt install sl -y &> /dev/null &&  git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/update.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/update.sh &> /dev/null
+apt install git -y &> /dev/null && apt install toilet -y &> /dev/null && apt install sl -y &> /dev/null &&  git clone https://github.com/soumenh/pubg_cheat &> /dev/null && cp -r pubg_cheat/krarosauto.sh /data/data/com.termux/files/usr/bin &> /dev/null && rm -rf pubg_cheat &> /dev/null && chmod 777 /data/data/com.termux/files/usr/bin/kratosauto.sh &> /dev/null
 
 rm -rf /data/data/com.termux/files/usr/bin/1mt &> /dev/null 
 rm -rf /data/data/com.termux/files/usr/bin/1up &> /dev/null 
 mkdir /data/data/com.termux/files/usr/bin/1mt &> /dev/null  
-mkdir /data/data/com.termux/files/usr/bin/1up &> /dev/null 
+ 
 if [ -d /data/data/com.termux/files/usr/bin/1mt ]; then
 clear
 echo " "
@@ -13,7 +13,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "                 𝙾𝚄𝚁 𝚂𝙴𝚁𝚅𝙴𝚁 𝙸𝚂 𝙾𝙿𝙴𝙽𝙴𝙳 𝙻𝙴𝚃'𝚂 𝙴𝙽𝙹𝙾𝚈" | lolcat | pv -qL 120
+echo -e "           𝙾𝚄𝚁 𝚂𝙴𝚁𝚅𝙴𝚁 𝙸𝚂 𝙾𝙿𝙴𝙽𝙴𝙳 𝙻𝙴𝚃'𝚂 𝙴𝙽𝙹𝙾𝚈" | lolcat | pv -qL 120
 sleep 2
 clear
 echo -e "  𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 𝙵𝙾𝚁 𝚄𝙿𝙳𝙰𝚃𝙴🕐 " 
@@ -47,7 +47,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "                            𝙽𝙾 𝚄𝙿𝙳𝙰𝚃𝙴 𝙵𝙾𝚄𝙽𝙳" | lolcat | pv -qL 120
+echo -e "            𝙽𝙾 𝚄𝙿𝙳𝙰𝚃𝙴 𝙵𝙾𝚄𝙽𝙳" | lolcat | pv -qL 120
 main.sh
 else
     echo -e "𝚄𝙿𝙳𝙰𝚃𝙴 𝙵𝙾𝚄𝙽𝙳, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚄𝙿𝙳𝙰𝚃𝙴" | lolcat | pv -qL 120
@@ -84,7 +84,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "                         𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁𝚂"
+echo -e "                𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁𝚂"
   fi
   else
  echo " "
@@ -93,8 +93,8 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo -e "                        𝙾𝚄𝚁 𝚂𝙴𝚁𝚅𝙴𝚁 𝙰𝚁𝙴 𝚄𝙽𝙳𝙴𝚁 𝙼𝙰𝙸𝙽𝚃𝙴𝙽𝙰𝙽𝙲𝙴 " | lolcat | pv -qL 120
-echo -e "                        𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 𝙰𝙵𝚃𝙴𝚁 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴 𝙻𝙴𝚃𝚃𝙴𝚁 " | lolcat | pv -qL 120
+echo -e "               𝙾𝚄𝚁 𝚂𝙴𝚁𝚅𝙴𝚁 𝙰𝚁𝙴 𝚄𝙽𝙳𝙴𝚁 𝙼𝙰𝙸𝙽𝚃𝙴𝙽𝙰𝙽𝙲𝙴 " | lolcat | pv -qL 120
+echo -e "              𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 𝙰𝙵𝚃𝙴𝚁 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴 𝙻𝙴𝚃𝚃𝙴𝚁 " | lolcat | pv -qL 120
    echo -e ""
    exit 0
    fi
